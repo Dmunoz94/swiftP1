@@ -21,5 +21,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var tv1: UILabel!
+
+    @IBOutlet weak var et1: UITextField!
+    
+    @IBAction func Button1(sender: AnyObject) {
+        tv1.text = et1.text
+        
+    }
 }
 
